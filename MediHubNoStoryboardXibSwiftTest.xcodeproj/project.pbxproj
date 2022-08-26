@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1824542620DDEB8B0087DA0B /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824542520DDEB8B0087DA0B /* VideoVC.swift */; };
+		18ABB0D31FE8F19800ED74A8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ABB0D21FE8F19800ED74A8 /* MapKit.framework */; };
 		18F9D2511FE8E9DF001FF906 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F9D2501FE8E9DF001FF906 /* AppDelegate.swift */; };
 		18F9D2531FE8E9DF001FF906 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F9D2521FE8E9DF001FF906 /* ViewController.swift */; };
 		18F9D2561FE8E9DF001FF906 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F9D2541FE8E9DF001FF906 /* Main.storyboard */; };
 		18F9D2591FE8E9DF001FF906 /* MediHubNoStoryboardXibSwiftTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18F9D2571FE8E9DF001FF906 /* MediHubNoStoryboardXibSwiftTest.xcdatamodeld */; };
 		18F9D25B1FE8E9DF001FF906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F9D25A1FE8E9DF001FF906 /* Assets.xcassets */; };
 		18F9D25E1FE8E9DF001FF906 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F9D25C1FE8E9DF001FF906 /* LaunchScreen.storyboard */; };
+		80754859239EC915E21991C9 /* Pods_MediHubNoStoryboardXibSwiftTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C28C3851B045820A8E37CC7 /* Pods_MediHubNoStoryboardXibSwiftTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14ABFAA3AA2D4A69EA0F0673 /* Pods-MediHubNoStoryboardXibSwiftTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediHubNoStoryboardXibSwiftTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-MediHubNoStoryboardXibSwiftTest/Pods-MediHubNoStoryboardXibSwiftTest.release.xcconfig"; sourceTree = "<group>"; };
+		1824542520DDEB8B0087DA0B /* VideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		18ABB0D21FE8F19800ED74A8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		18F9D24D1FE8E9DF001FF906 /* MediHubNoStoryboardXibSwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediHubNoStoryboardXibSwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F9D2501FE8E9DF001FF906 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18F9D2521FE8E9DF001FF906 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		18F9D25A1FE8E9DF001FF906 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18F9D25D1FE8E9DF001FF906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18F9D25F1FE8E9DF001FF906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C28C3851B045820A8E37CC7 /* Pods_MediHubNoStoryboardXibSwiftTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediHubNoStoryboardXibSwiftTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65CA031C72CC95FEE4D3A7B /* Pods-MediHubNoStoryboardXibSwiftTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediHubNoStoryboardXibSwiftTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MediHubNoStoryboardXibSwiftTest/Pods-MediHubNoStoryboardXibSwiftTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18ABB0D31FE8F19800ED74A8 /* MapKit.framework in Frameworks */,
+				80754859239EC915E21991C9 /* Pods_MediHubNoStoryboardXibSwiftTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18ABB0D11FE8F19800ED74A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18ABB0D21FE8F19800ED74A8 /* MapKit.framework */,
+				7C28C3851B045820A8E37CC7 /* Pods_MediHubNoStoryboardXibSwiftTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		18F9D2441FE8E9DF001FF906 = {
 			isa = PBXGroup;
 			children = (
 				18F9D24F1FE8E9DF001FF906 /* MediHubNoStoryboardXibSwiftTest */,
 				18F9D24E1FE8E9DF001FF906 /* Products */,
+				18ABB0D11FE8F19800ED74A8 /* Frameworks */,
+				ECEDCF9F57AD8399518A5505 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +84,18 @@
 				18F9D25C1FE8E9DF001FF906 /* LaunchScreen.storyboard */,
 				18F9D25F1FE8E9DF001FF906 /* Info.plist */,
 				18F9D2571FE8E9DF001FF906 /* MediHubNoStoryboardXibSwiftTest.xcdatamodeld */,
+				1824542520DDEB8B0087DA0B /* VideoVC.swift */,
 			);
 			path = MediHubNoStoryboardXibSwiftTest;
+			sourceTree = "<group>";
+		};
+		ECEDCF9F57AD8399518A5505 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A65CA031C72CC95FEE4D3A7B /* Pods-MediHubNoStoryboardXibSwiftTest.debug.xcconfig */,
+				14ABFAA3AA2D4A69EA0F0673 /* Pods-MediHubNoStoryboardXibSwiftTest.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +105,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18F9D2621FE8E9DF001FF906 /* Build configuration list for PBXNativeTarget "MediHubNoStoryboardXibSwiftTest" */;
 			buildPhases = (
+				375E61AE2B1610640241821F /* [CP] Check Pods Manifest.lock */,
 				18F9D2491FE8E9DF001FF906 /* Sources */,
 				18F9D24A1FE8E9DF001FF906 /* Frameworks */,
 				18F9D24B1FE8E9DF001FF906 /* Resources */,
+				379EB5E209868D6011296777 /* [CP] Embed Pods Frameworks */,
+				51804EBA30D9AAF427D61B69 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -100,6 +134,11 @@
 					18F9D24C1FE8E9DF001FF906 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -134,11 +173,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		375E61AE2B1610640241821F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MediHubNoStoryboardXibSwiftTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		379EB5E209868D6011296777 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MediHubNoStoryboardXibSwiftTest/Pods-MediHubNoStoryboardXibSwiftTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YouTubePlayer/YouTubePlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/youtube-ios-player-helper/youtube_ios_player_helper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YouTubePlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/youtube_ios_player_helper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MediHubNoStoryboardXibSwiftTest/Pods-MediHubNoStoryboardXibSwiftTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51804EBA30D9AAF427D61B69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MediHubNoStoryboardXibSwiftTest/Pods-MediHubNoStoryboardXibSwiftTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18F9D2491FE8E9DF001FF906 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1824542620DDEB8B0087DA0B /* VideoVC.swift in Sources */,
 				18F9D2531FE8E9DF001FF906 /* ViewController.swift in Sources */,
 				18F9D2591FE8E9DF001FF906 /* MediHubNoStoryboardXibSwiftTest.xcdatamodeld in Sources */,
 				18F9D2511FE8E9DF001FF906 /* AppDelegate.swift in Sources */,
@@ -276,11 +372,13 @@
 		};
 		18F9D2631FE8E9DF001FF906 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A65CA031C72CC95FEE4D3A7B /* Pods-MediHubNoStoryboardXibSwiftTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 92X96QHTT2;
 				INFOPLIST_FILE = MediHubNoStoryboardXibSwiftTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.medihubvn.MediHubNoStoryboardXibSwiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,11 +389,13 @@
 		};
 		18F9D2641FE8E9DF001FF906 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14ABFAA3AA2D4A69EA0F0673 /* Pods-MediHubNoStoryboardXibSwiftTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 92X96QHTT2;
 				INFOPLIST_FILE = MediHubNoStoryboardXibSwiftTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.medihubvn.MediHubNoStoryboardXibSwiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";

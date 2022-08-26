@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Try cap?</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Ban muon truy cap vi tri cua ban k?</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Ban muon truy cap vi tri cua ban ko ne?</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
